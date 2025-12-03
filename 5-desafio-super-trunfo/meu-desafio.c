@@ -92,6 +92,8 @@ int main()
     scanf(" %f", &places2);
 
     // Exibição da segunda carta
+
+    printf("Segunda carta: \n");
     printf("Estado: %c\n", state2);
     printf("Código: %s\n", cardCode2);
     printf("Nome da cidade: %s\n", city2);
@@ -99,4 +101,6 @@ int main()
     printf("Área: %fKm²\n ", area2);
     printf("PIB: %f\n", pib2);
     printf("Número de pontos turísticos: %f\n", places2);
+
+    return 0;
 }
